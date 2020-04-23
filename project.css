@@ -5,17 +5,19 @@
 
 nav{
     background-color: brown;
-    height:60px;
+    height:65px;
     border-bottom:1px solid white;
 }
 
 nav ul{
     display:flex; 
+   
 }
 
 nav li{
     margin:25px 50px;
     list-style: none;
+    transition: 4s;
 }
 
 nav a {
@@ -28,7 +30,12 @@ nav a {
 nav a:hover{
 color:white;
 }
+.love{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
 
+}
 .active{
     color:white;
 }
@@ -89,7 +96,7 @@ margin-top:50px
 }
 
 footer{
-    height:600px;
+    height:450px;
     margin-top:100px;
 
 }
@@ -105,13 +112,19 @@ footer{
     height:20%;
     background-color: rgb(110, 102, 102);
     text-align: center;
+   
 }
 
 .footer2 p{
+    display: flex;
+    justify-content: center;
     color:white;
-    
 }
-
+.p1{
+    margin-top: 20px;
+    color: white;
+    text-decoration: bold;
+}
 .footer{
     margin:10px;
         margin-top:10%;
